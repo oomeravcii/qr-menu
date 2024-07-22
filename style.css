@@ -6,13 +6,16 @@
 
 html {
     font-family: 'Roboto', sans-serif;
-    background-color: #0a1300;
+    background-color: #040800;
+    color: rgb(245, 236, 221);
 }
 
+/* Giriş Ekranı */
+
 #landing-screen {
-    background-color: black;
-    color: rgb(255, 201, 100);
-    height: 500px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(248, 182, 59);
+    height: 450px;
     font-size: 30px;
 }
 
@@ -21,22 +24,64 @@ html {
 }
 
 #title {
-    padding-top: 110px;
     text-align: center;
     padding-top: 110px;
-    text-align: center;
 }
 
 #subtitle {
     color: gray;
     font-size: 25px;
-    margin-top: 30px;
+    margin-top: 100px;
 }
 
 #downicon {
     height: 50px;
-    margin-top: 130px;
-    margin-left: 340px;
+    margin-top: 10px;
     opacity: 55%;
 }
 
+/* Yiyecekler */
+
+#foods {
+    margin: 10px;
+    border-color: #b3920015;
+    border-style: double;
+    border-width: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#title-foods {
+    padding: 50px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 1.3rem;
+}
+
+/* Yiyecek */
+
+.food {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(129, 110, 81);
+    color: black;
+}
+
+.food img {
+    margin: 3px;
+    border: #040800 5px solid;
+}
+
+.food-title {
+    font-size: 40px;
+    margin: -20px;
+    text-align: center;
+}
+
+.food-desc {
+    text-align: center;
+    margin-bottom: 15px;
+}
