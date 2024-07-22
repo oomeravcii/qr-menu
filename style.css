@@ -8,6 +8,7 @@ html {
     font-family: 'Roboto', sans-serif;
     background-color: #040800;
     color: rgb(245, 236, 221);
+    scroll-behavior: smooth;
 }
 
 /* Giriş Ekranı */
@@ -15,7 +16,7 @@ html {
 #landing-screen {
     background-color: rgb(0, 0, 0);
     color: rgb(248, 182, 59);
-    height: 560px;
+    height: 700px;
     font-size: 30px;
 }
 
@@ -26,19 +27,27 @@ html {
 #title {
     text-align: center;
     padding-top: 110px;
+    animation: fadeIn 2s;
 }
 
 #subtitle {
     color: gray;
     font-size: 25px;
     margin-top: 200px;
+    animation: fadeIn 5s;
 }
 
 #downicon {
     height: 50px;
     margin-top: 10px;
     opacity: 55%;
+    animation: fadeIn 5s;
 }
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 
 /* Yiyecekler */
 
@@ -93,7 +102,7 @@ html {
 }
 
 .price {
-    border: 4px double black;
+    border: 4px double rgba(0, 0, 0, 0.418);
     width: 100px;
     text-align: center;
     margin-bottom: 10px;
