@@ -27,21 +27,32 @@ html {
 #title {
     text-align: center;
     padding-top: 110px;
-    animation: fadeIn 2s;
+    animation: fadeIn 3s;
+}
+
+#socials img {
+    height: 40px;
+    border-radius: 100%;
+    margin-top: 20px;
+    animation: fadeIn 5s;
+}
+
+#facebook {
+    padding-right: 20px;
 }
 
 #subtitle {
     color: gray;
     font-size: 25px;
     margin-top: 200px;
-    animation: fadeIn 5s;
+    animation: fadeIn 6s;
 }
 
 #downicon {
     height: 50px;
     margin-top: 10px;
     opacity: 55%;
-    animation: fadeIn 5s;
+    animation: fadeIn 6s;
 }
 
 @keyframes fadeIn {
